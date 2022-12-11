@@ -1,0 +1,81 @@
+﻿body.public-page{
+    background: url('/src/images/bg.jpg') center center no-repeat;
+    background-size: cover;
+}
+div.login-page{
+    width: 100%;
+    max-width: 400px;
+    background: #f6f6f6;
+    border: 1px #CCC solid;
+    border-radius: 6px;
+    margin: 2% auto;
+    box-sizing: border-box;
+    padding: 30px 30px 60px 30px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.12);
+}
+
+div.login-page p.sedc-logo{
+    display: block;
+    font-size: 24px;
+    font-weight: 700;
+    width: 120px;
+    background: #004dbe;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 40px 0;
+    box-sizing: border-box;
+    margin: 0 auto 16px auto;
+}
+
+div.login-page h4{
+    text-align: center;
+    font-weight: 300;
+    margin: 10px 0 20px 0;
+}
+
+div.login-page div.form-row input{
+    width: 100%;
+    display: block;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 14px 0;
+    border-radius: 6px;
+    border: 1px #CCC solid;
+    outline: none;
+}
+
+div.validation-errors{
+    padding: 10px;
+    margin-top: 20px;
+    background: #C00000;
+    color: #fff;
+    border: 1px #fff solid;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 12px;
+    display: none;
+}
+div.validation-errors.visible{
+    display: block;
+}
+
+.helper-link{
+    font-weight: 400;
+    display: block;
+    padding: 8px 0 8px 0;
+    margin: 0 auto;
+}
+
+div.register-success{
+    text-align: center;
+    margin: 15% auto;
+    font-weight: 300;
+    font-size: 30px;
+}
