@@ -40,7 +40,7 @@ export function LoginPage() {
     }
     return (
         <div className={'login-page'}>
-            <p className={'sedc-logo'}>SEDC</p>
+            <p className={'sedc-logo'}>WebScraper</p>
             <h4><i className="bi bi-lock-fill"></i>Sign In</h4>
             <form onSubmit={submitLogin}>
                 <div className={'form-row'}>
